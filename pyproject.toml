@@ -23,6 +23,11 @@ mypy = "^1.6.1"
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
 
+[tool.mypy]
+# Exclude a variety of commonly ignored directories.
+exclude = [
+    "docs/conf.py",
+]
 
 [tool.ruff]
 # Enable Pyflakes (`F`) and a subset of the pycodestyle (`E`)  codes by default.
