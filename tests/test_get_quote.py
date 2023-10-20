@@ -15,3 +15,4 @@ def test_get_quote() -> None:
 
     assert quote in quotes
     assert quote in quotes
+    assert quote in quotes

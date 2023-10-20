@@ -12,3 +12,7 @@ def get_quote() -> dict:
         dict: Random quote from quotes.
     """
     return quotes[random.randint(0, len(quotes) - 1)]
+
+
+if __name__ == "__main__":
+    print(get_quote())
