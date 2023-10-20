@@ -56,6 +56,7 @@ exclude = [
     "dist",
     "node_modules",
     "venv",
+    "docs/conf.py",
 ]
 
 # Same as Black.
