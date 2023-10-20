@@ -6,7 +6,7 @@ My First Project with this stuck:
 - pytest-cov
 - Black
 - isort
-- Flake8
+- ruff
 - Bandit
 
 ## Installation
