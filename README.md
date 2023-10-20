@@ -8,5 +8,8 @@ My First Project with this stuck:
 - isort
 - ruff
 - Bandit
+- mypy
 
-## Installation
+## Documentation created with Sphinx
+
+[click here](https://random-quote-generator-sk7149.readthedocs.io/en/latest/)
