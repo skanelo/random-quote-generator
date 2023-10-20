@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "random-quote-generator"
+name = "random-quote-generator-sk7149"
 version = "0.1.0"
 description = ""
 authors = ["Stefanos <skanelo.ai@gmail.com>"]
@@ -9,6 +9,14 @@ packages = [{include = "random_quote_generator"}]
 [tool.poetry.dependencies]
 python = "^3.8"
 
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.4.2"
+pytest-cov = "^4.1.0"
+black = "^23.10.0"
+isort = "^5.12.0"
+ruff = "^0.1.1"
+bandit = "^1.7.5"
 
 [build-system]
 requires = ["poetry-core"]
